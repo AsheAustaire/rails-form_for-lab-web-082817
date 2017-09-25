@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <%= form_for(@school_class) do |f| %>
+        <label>School Class Form</label>
+      Title: <%= f.text_field :title %><br />
+      Room Number: <%= f.text_field :room_number %> <br />
+      <%= f.submit %>
+    <% end %>
+  </body>
+</html>
